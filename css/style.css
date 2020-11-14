@@ -1,31 +1,92 @@
+* {
+    font-size: 20px;
+    margin: 0px;
+}
+
 #container{
-    width: 900px;
+    width: 90%;
     margin: auto;
+    background-color: yellow;
 }
 header{
     background-color:lightsalmon;
-    height: 100px;
+    height: 150px;
+}
+
+nav {
+background-color: white;
+}
+
+nav ul{
+   list-style-type: none; 
+   height: 50px;
+   text-align: center;
+   line-height: 50px;
+}
+
+nav ul li{
+    
+    width: 250px;
+    display: inline-block;
+    
+}
+
+nav ul li a {
+    color: yellow;
+    
+
+}
+
+nav ul li a:hover {
+    color: red;
+    background-color: lightgrey;
+
 }
 
 #slider{
     background-color: lightgreen;
-    height: 250px;
+    
 }
 
 #duyuru{
     background-color: lightblue;
+    width: 35.7%;
+    float: left;
+    text-align: justify;
+    margin: 1% 1% 1% 1%;
+    padding: 1%;
+    border:1px blue solid;
+
 }
 #hizliErisim{
     background-color: lightpink;
+    width: 57%;
+    float: left;
+    text-align: justify;
+    margin: 1% 1% 1% 0;
+    padding: 1%;
+    border:1px blue solid;
+
 }
 
 footer{
     background-color: #181818;
     color: #FFF;
-    height: 82px;
-    font-size: 75%;
-    text-align: left;
-    line-height: 82px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    clear: both;
 
 
+}
+
+
+.onemli {
+    color: red;
+    background-color: lightyellow;
+
+}
+p::first-letter {
+    font-size: 200%;
+    
 }
